@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            //Add(2, 4);
-
-            //string answer1 = Add(1, 22, true );
-            //Console.WriteLine(answer1);
+            Console.WriteLine(Add(1,1));
+            Console.WriteLine(Add(2.5,2.5));
+            Console.WriteLine(Add(1,0,true ));
         }
 
         public static int Add(int x, int y)
@@ -15,7 +14,7 @@
             return x + y;
         }
 
-        public  double Add(double x, double y)
+        public static double Add(double x, double y)
         {
             return x + y;
         }
